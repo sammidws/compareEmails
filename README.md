@@ -1,5 +1,6 @@
 bash command:
    php -e compare.php 'month/filename_for_list_1.txt' 'month/filename_for_list_2.txt'
+
    example: php -e compare.php 'jul/A_FULL_DB_020714.txt' 'jul/B_FULL_DB_020714.txt'
 
 For testing 
