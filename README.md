@@ -1,10 +1,10 @@
 bash command:
-   php -e compare_emails.php 'month/filename_for_list_1.txt' 'month/filename_for_list_2.txt'
-   example: php -e compare_emails.php 'jul/A_FULL_DB_020714.txt' 'jul/B_FULL_DB_020714.txt'
+   php -e compare.php 'month/filename_for_list_1.txt' 'month/filename_for_list_2.txt'
+   example: php -e compare.php 'jul/A_FULL_DB_020714.txt' 'jul/B_FULL_DB_020714.txt'
 
 For testing 
    bash command:
- 		php -e compare_emails.php 'jul/a.txt' 'jul/b.txt'
+ 		php -e compare.php 'jul/a.txt' 'jul/b.txt'
 
    a.txt = 1,2,2,  4,6
    b.txt = 1,    3,4,6,6
