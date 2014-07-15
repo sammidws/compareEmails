@@ -2,7 +2,7 @@
 
 // bash command:
 //   php -e compare_emails.php 'month/filename_for_list_1.txt' 'month/filename_for_list_2.txt'
-//   example: php -e compare_emails.php 'jul/KG_FULL_DB_020714.txt' 'jul/SA_FULL_DB_020714.txt'
+//   example: php -e compare_emails.php 'jul/A_FULL_DB_020714.txt' 'jul/B_FULL_DB_020714.txt'
 
 // For testing 
 // bash command:
@@ -12,8 +12,8 @@
 // b.txt = 1,    3,4,6,6
 
 // results are Crossover = 1,4,6
-// results are KG = 2
-// results are SA = 3
+// results are A = 2
+// results are B = 3
 
 // set memory limit to undifined
 ini_set('memory_limit', '-1');
